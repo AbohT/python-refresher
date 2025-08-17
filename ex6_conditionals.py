@@ -13,7 +13,7 @@ contacts = {
 		}	
 print("Jibrin" not in contacts)
 
-'''
+
 isMarried = not True
 web2class = True
 isMale = True
@@ -22,5 +22,15 @@ print(not isMarried and web2class and favouriteNumber == 10.0 or isMale)
 
 print(10!=10.0)
 print(10==10.0)
-
 '''
+
+temp = 28
+result = " "
+if temp < 15:
+	result = "cold"
+elif temp >= 15 and temp <= 25:
+	result = "warm"
+else:
+	result = "hot"
+print(result)
+
