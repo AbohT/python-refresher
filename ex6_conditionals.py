@@ -22,7 +22,6 @@ print(not isMarried and web2class and favouriteNumber == 10.0 or isMale)
 
 print(10!=10.0)
 print(10==10.0)
-'''
 
 temp = 28
 result = " "
@@ -33,4 +32,36 @@ elif temp >= 15 and temp <= 25:
 else:
 	result = "hot"
 print(result)
+'''
+persons = {
+    "name" : "Joseph",
+    "student" : True,
+    "age" : 23,
+    "likes" : ["eating", "sleeping", "making money"]
+	}
+print(persons["likes"][1])
+print(persons.get("likes")[0])
+print(persons.values())
+print(persons.items())
+print(persons.keys())
+persons.pop("age")
+print(persons)
+persons.popitem()
+print(persons)
+print(persons["age"])
+
+#username = input("Enter your username: ")
+#keyword = input("Enter your search keyword: ")
+#if username == persons.get("name") and persons.get("student"):
+#    print("You have libraray access"
+#else:
+#    print("No access")
+print(persons.keys())
+print(persons["age"])
+if "age" in persons.keys():
+	print(persons["age"])
+else:
+	print("None")
+
+
 
